@@ -136,7 +136,7 @@ vector<vector<string>> choices = {
 };
 
 // DrawWrapped: draws long text on several lines.
-// Written with help from Claude (Anthropic AI), edited by me (Rafiu). on Friday 20th at 12a.m
+// Written with help from Claude (Anthropic AI), edited by me (Rafiu). on Friday 20th at 12:00 a.m.
 // raylib DrawText (raylib 5.5 cheatsheet).
 void DrawWrapped(string text, int x, int y, int maxChars, int fontSize, Color color) {
     while ((int)text.length() > maxChars) {
